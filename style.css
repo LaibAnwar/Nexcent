@@ -505,22 +505,37 @@ a {
   height: Hug (132.18px) px;
   gap: 27.84px;
   opacity: 0px;
+  font-family: Inter;
+  font-size: 10.55px;
+  font-weight: 400;
 }
 .left1 {
   width: Hug (132.95px) px;
   height: Hug (20.65px) px;
-  gap: 27.84px;
+
+  gap: 6.88px;
   opacity: 0px;
+
+  opacity: 0px;
+  text-align: left;
 }
 .left2 {
-  opacity: 0px;
+  font-family: Inter;
+  font-size: 9.74px;
+  font-weight: 400;
+  line-height: 13.92px;
+  text-align: left;
   color: #f5f7fa;
-  margin-top: 27.84px;
+  margin-top: 27.17px;
 }
 .left3 {
-  opacity: 0px;
+  font-family: Inter;
+  font-size: 9.74px;
+  font-weight: 400;
+  line-height: 13.92px;
+  text-align: left;
   color: #f5f7fa;
-  margin-top: 8.71px;
+  margin-top: 5.57px;
 }
 .right {
   width: Hug (111.37px) px;
@@ -538,6 +553,7 @@ a {
   width: Hug (111.37px) px;
   height: Hug (103.41px) px;
   gap: 8.35px;
+  margin-top: 16.71px;
   opacity: 0px;
   font-family: Inter;
   font-size: 9.74px;
@@ -545,7 +561,6 @@ a {
   line-height: 13.92px;
   text-align: left;
   color: #b3b4b5;
-  margin-top: 5.572px;
 }
 
 .right11 {
@@ -557,15 +572,18 @@ a {
 .butn {
   width: 177.5px;
   height: 27.84px;
+  top: 36.71px;
   gap: 0px;
-  opacity: 0px;
+  border-radius: 5.57px 0px 0px 0px;
+  opacity: 0.2px;
+
   font-family: Inter;
   font-size: 9.74px;
   font-weight: 400;
   line-height: 13.92px;
   text-align: center;
   color: #b3b4b5;
-  margin-top: 5.572px;
+  margin-top: 16.71px;
 }
 
 @media (max-width: 768px) {
@@ -640,7 +658,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-top: 28.54px;
     float: left;
-    gap: 50px;
+    gap: 30px;
   }
   .community {
     text-align: center;
@@ -648,14 +666,18 @@ a {
     height: auto;
     margin-top: 100px;
     margin-bottom: 150px;
+    float: left;
   }
   .btn1 {
     margin-bottom: 50px;
   }
   .member {
     height: auto;
-    width: 100%;
+
     gap: 30px;
+
+    display: flex;
+    flex-direction: column;
   }
   .threeyears {
     height: auto;
@@ -707,7 +729,7 @@ a {
     display: grid;
     grid-template-columns: repeat(2, auto);
     row-gap: 30px;
-    width: 100%;
+
     margin-right: 20px;
   }
   .butn {
@@ -721,7 +743,8 @@ a {
     line-height: 10.92px;
     text-align: center;
     color: #b3b4b5;
-    margin-top: 5.572px;
+
+    margin-top: 16.71px;
   }
   .dem0 {
     font-family: Inter;
@@ -821,10 +844,16 @@ a {
     display: grid;
     grid-template-columns: repeat(2, auto);
     row-gap: 30px;
-    width: 100%;
+
     margin-right: 20px;
+  }
+  .left {
+    font-family: Inter;
   }
   .btn1 {
     float: left;
+  }
+  .butn {
+    margin-top: 16.71px;
   }
 }
