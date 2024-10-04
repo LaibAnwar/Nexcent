@@ -325,14 +325,16 @@ a {
   justify-content: space-between;
   opacity: 0px;
   background-color: #f5f7fa;
+}
+.business-container {
+  width: 100%;
   display: flex;
+  align-items: center;
 }
-.business1 {
-  width: Fixed (375.88px) px;
-  height: Hug (84.57px) px;
-  gap: 5.57px;
-  opacity: 0px;
+.business-heading {
+  width: 40%;
 }
+
 .business-a {
   font-family: Inter;
   font-size: 25.06px;
@@ -359,18 +361,22 @@ a {
   color: #b3b4b5;
 }
 
-.business2 {
-  width: Hug (375.88px) px;
-  height: Hug (113.84px) px;
-  gap: 27.84px;
-  opacity: 0px;
+.business-content {
+  width: 55%;
+
+  margin-left: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  grid-gap: 3rem;
 }
-.business-2a {
-  width: Hug (375.88px) px;
-  height: Hug (43px) px;
-  gap: 20.88px;
-  opacity: 0px;
+.business-item {
+  display: flex;
+  align-items: center;
 }
+.business-item-text {
+  margin-left: 2rem;
+}
+
 .timsmith {
   width: Fixed (1, 002.34px) px;
   height: Hug (271.47px) px;
@@ -462,17 +468,74 @@ a {
   text-align: Center;
   color: #b3b4b5;
 }
-.imgg3 {
+.blog {
   width: Fixed (1, 002.34px) px;
   height: Hug (255.8px) px;
   padding: 0px 100.23px 0px 100.23px;
   gap: 0px;
-  justify-content: space-between;
 
   opacity: 0px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 3rem;
+}
+.blog-items {
+  width: Hug (256.15px) px;
+  height: Hug (255.8px) px;
+  gap: 0px;
+  opacity: 0px;
+}
+.blog-items > img {
+  object-fit: cover;
+
+  width: 256.15px;
+  height: 199.08px;
+  gap: 0px;
+  border-radius: 5.57px 0px 0px 0px;
+  opacity: 0px;
+}
+.blog-body {
+  width: Hug (220.65px) px;
+  height: Hug (200.55px) px;
+  padding: 11.14px;
+  gap: 11.14px;
+  border-radius: 5.57px 0px 0px 0px;
+  opacity: 0px;
+
+  background-color: #f5f7fa;
+  position: absolute;
+
+  bottom: -118.12rem;
+
+  border-radius: 5.57px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 5.57px 11.14px 0px #abbed166;
+  margin-left: 17.75px;
+  text-align: center;
+  align-items: center;
+}
+.blog-title {
+  font-family: Inter;
+  font-size: 12.92px;
+  font-weight: 500;
+  line-height: 19.49px;
+  text-align: center;
+  color: #4d4d4d;
 }
 
+.blog-link {
+  width: 69px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 13.92px;
+  font-weight: 600;
+  line-height: 19.49px;
+  text-align: left;
+  color: #4caf4f;
+  padding-top: 16.71px;
+}
 .dem0 {
   width: Fixed (1, 002.34px) px;
   height: Hug (209.31px) px;
@@ -481,6 +544,7 @@ a {
   opacity: 0px;
   background-color: #f5f7fa;
   text-align: center;
+  margin-top: 81.08px;
 }
 .dem01 {
   font-family: Inter;
@@ -665,8 +729,7 @@ a {
 
     height: auto;
     margin-top: 100px;
-    margin-bottom: 150px;
-    float: left;
+    margin-bottom: 50px;
   }
   .btn1 {
     margin-bottom: 50px;
@@ -712,15 +775,19 @@ a {
     text-align: center;
     height: auto;
   }
-  .imgg3 {
-    height: auto;
-
+  .blog {
+    display: flex;
     flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 15px;
   }
-  .imgg31 {
-    width: 100%;
-    margin-top: 30px;
+  .blog-body {
+    bottom: 2.5rem;
+    position: relative;
+    margin-right: 10px;
   }
+
   .btn1 {
     float: left;
   }
@@ -791,6 +858,7 @@ a {
   }
   .community {
     text-align: center;
+    width: 100%;
     height: auto;
   }
   .community2 {
@@ -824,11 +892,19 @@ a {
   .clients2 {
     padding-top: 11.71px;
   }
-  .imgg3 {
-    height: auto;
+  .blog {
     display: flex;
     flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 15px;
   }
+  .blog-body {
+    bottom: 2.5rem;
+    position: relative;
+    margin-right: 10px;
+  }
+
   .dem0 {
     font-family: Inter;
     font-size: 20.55px;
