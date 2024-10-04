@@ -574,6 +574,7 @@ a {
   font-family: Inter;
   font-size: 10.55px;
   font-weight: 400;
+  float: left;
 }
 .left1 {
   width: Hug (132.95px) px;
@@ -603,6 +604,7 @@ a {
   color: #f5f7fa;
   margin-top: 5.57px;
 }
+
 .right {
   width: Hug (111.37px) px;
   height: Hug (140.12px) px;
@@ -613,6 +615,20 @@ a {
   font-weight: 400;
   line-height: 30.63px;
   text-align: left;
+  float: right;
+  margin-left: 87.01px;
+}
+.right-a {
+  width: Hug (111.37px) px;
+  height: Hug (140.12px) px;
+  gap: 16.71px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 20.06px;
+  font-weight: 400;
+  line-height: 30.63px;
+  text-align: left;
+  float: left;
 }
 .list {
   color: #f5f7fa;
@@ -628,7 +644,9 @@ a {
   text-align: left;
   color: #b3b4b5;
 }
-
+.right1 {
+  float: left;
+}
 .right11 {
   line-height: 19.49px;
   text-align: left;
