@@ -235,7 +235,7 @@ a {
   height: 196.1pxpx;
   padding: 0px 100.23px 0px 100.23px;
   gap: 0px;
-  justify-content: space-between;
+
   opacity: 0px;
   display: flex;
   margin-top: 11.14px;
@@ -247,6 +247,7 @@ a {
   font-weight: 500;
   line-height: 25.06px;
   text-align: center;
+  flex: 1;
 }
 .break {
   font-family: Inter;
@@ -257,22 +258,7 @@ a {
   color: #b3b4b5;
   margin-top: 5.572px;
 }
-.member2 {
-  color: #4d4d4d;
-  font-family: Inter;
-  font-size: 19.49px;
-  font-weight: 500;
-  line-height: 25.06px;
-  text-align: center;
-}
-.member3 {
-  color: #4d4d4d;
-  font-family: Inter;
-  font-size: 19.49px;
-  font-weight: 500;
-  line-height: 25.06px;
-  text-align: center;
-}
+
 .threeyears {
   display: flex;
   width: 1, 002.34px;
