@@ -655,7 +655,8 @@ a {
   color: #b3b4b5;
   margin-top: 16.71px;
 }
-
+@media only screen and (min-width: 1040px) and(max-width:1200px) {
+}
 @media (max-width: 768px) {
   * {
     margin: 0%;
@@ -807,6 +808,10 @@ a {
     row-gap: 30px;
 
     margin-right: 20px;
+    width: 100%;
+  }
+  .right {
+    margin-left: 5px;
   }
   .butn {
     width: 150.5px;
@@ -833,8 +838,187 @@ a {
     height: auto;
   }
 }
+@media only screen and (min-width: 769px) and (max-width: 1040px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+  }
 
-@media (min-width: 486px) and (max-width: 586px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav_menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+
+    width: 100%;
+    text-align: center;
+    transition: 0.7s;
+  }
+
+  .nav_item {
+    margin: 16px 0;
+  }
+
+  .nav_menu.active {
+    left: 0;
+  }
+  .grd-c {
+    display: grid;
+
+    background-color: #f5f7fa;
+    grid-template-columns: 1fr;
+
+    height: auto;
+  }
+  .text {
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+  .image {
+    width: 100%;
+    margin-left: 120px;
+    height: auto;
+  }
+  .client {
+    height: auto;
+  }
+  .client1 {
+    text-align: center;
+  }
+  .client2 {
+    text-align: center;
+  }
+  .logoz {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 28.54px;
+    float: left;
+    gap: 30px;
+  }
+  .community {
+    text-align: center;
+
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .btn1 {
+    margin-bottom: 50px;
+  }
+  .member {
+    height: auto;
+
+    gap: 30px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .threeyears {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+  .threeyears1 {
+    width: 100%;
+
+    height: auto;
+  }
+  .threeyear2 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .timsmith {
+    height: auto;
+    display: flex;
+    width: 100%;
+    margin-top: 0%;
+    padding: 10px 0px 0px 0px;
+  }
+  .timsmith1 {
+    height: auto;
+    width: 50%;
+    padding-top: 30px;
+  }
+  .timsmith2 {
+    font-size: 8px;
+    line-height: 6.71px;
+    height: auto;
+  }
+  .clients {
+    text-align: center;
+    height: auto;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .blog-body {
+    bottom: 2.5rem;
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .btn1 {
+    float: left;
+  }
+
+  .dem0 {
+    font-family: Inter;
+    font-size: 20.55px;
+    font-weight: 200;
+    line-height: 40.9px;
+    text-align: center;
+    padding-bottom: 22.27px;
+
+    height: auto;
+  }
+  .footer {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 30px;
+    width: 100%;
+  }
+  .right {
+    margin-left: 5px;
+  }
+  .butn {
+    width: 150.5px;
+    height: 20.84px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 9.74px;
+    font-weight: 400;
+    line-height: 10.92px;
+    text-align: center;
+    color: #b3b4b5;
+
+    margin-top: 16.71px;
+  }
+}
+@media (min-width: 486px) and (max-width: 600px) {
   * {
     margin: 0%;
     padding: 0%;
@@ -929,16 +1113,137 @@ a {
     display: grid;
     grid-template-columns: repeat(2, auto);
     row-gap: 30px;
-
-    margin-right: 20px;
+    column-gap: 35px;
+    width: 100%;
   }
   .left {
     font-family: Inter;
+  }
+  .right {
+    margin-left: 36px;
   }
   .btn1 {
     float: left;
   }
   .butn {
     margin-top: 16.71px;
+  }
+  .right1 {
+    margin-left: 35px;
+  }
+}
+
+@media only screen and(min-width:300px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .grd-c {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+  }
+  .text {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding-left: 100.12px;
+  }
+  .btn1 {
+    margin-top: 20px;
+  }
+  .client {
+    text-align: center;
+    height: auto;
+  }
+  .logoz {
+    gap: 20px;
+  }
+  .community {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .community2 {
+    margin-top: 11.71px;
+  }
+  .member {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .threeyears {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .btn1 {
+    float: left;
+  }
+  .timsmith {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 100.23px;
+    text-align: center;
+    padding-right: 100.23px;
+  }
+  .clients {
+    text-align: center;
+    height: auto;
+  }
+  .clients2 {
+    padding-top: 11.71px;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .blog-body {
+    bottom: 2.5rem;
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .dem0 {
+    font-family: Inter;
+    font-size: 20.55px;
+    font-weight: 200;
+    line-height: 40.9px;
+    text-align: center;
+    padding-bottom: 22.27px;
+
+    height: auto;
+  }
+  .footer {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 30px;
+    column-gap: 35px;
+    width: 100%;
+  }
+  .left {
+    font-family: Inter;
+  }
+  .right {
+    margin-left: 36px;
+  }
+  .btn1 {
+    float: left;
+  }
+  .butn {
+    margin-top: 16.71px;
+  }
+  .right1 {
+    margin-left: 35px;
   }
 }
