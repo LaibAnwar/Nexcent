@@ -1018,7 +1018,7 @@ a {
     margin-top: 16.71px;
   }
 }
-/* @media (min-width: 486px) and (max-width: 600px) {
+@media (min-width: 486px) and (max-width: 600px) {
   * {
     margin: 0%;
     padding: 0%;
@@ -1131,7 +1131,7 @@ a {
   .right1 {
     margin-left: 35px;
   }
-} */
+}
 
 @media only screen and (min-width: 300px) {
   * {
