@@ -1018,7 +1018,7 @@ a {
     margin-top: 16.71px;
   }
 }
-@media (min-width: 486px) and (max-width: 567px) {
+@media (min-width: 486px) and (max-width: 620px) {
   * {
     margin: 0%;
     padding: 0%;
@@ -1133,7 +1133,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 485px) {
   * {
     margin: 0%;
     padding: 0%;
@@ -1141,28 +1141,40 @@ a {
   }
   body {
     overflow-x: hidden;
+    width: 100%;
   }
 
   .grd-c {
     flex-direction: column;
     display: flex;
     height: auto;
+    width: 100%;
   }
   .text {
     width: 100%;
     height: auto;
     margin: 0%;
-    padding-left: 100.12px;
+    text-align: center;
+    font-weight: 200;
+    font-size: x-large;
   }
-  .btn1 {
+
+  .btn {
     margin-top: 20px;
+  }
+  .image {
+    align-self: center;
   }
   .client {
     text-align: center;
     height: auto;
   }
   .logoz {
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 28.54px;
+    float: left;
+    gap: 15px;
   }
   .community {
     text-align: center;
@@ -1182,8 +1194,9 @@ a {
     flex-direction: column;
     height: auto;
   }
-  .btn1 {
-    float: left;
+
+  .business {
+    display: flex;
   }
   .timsmith {
     display: flex;
@@ -1244,6 +1257,163 @@ a {
     margin-top: 16.71px;
   }
   .right1 {
-    margin-left: 35px;
+    margin-right: 40px;
   }
 }
+/* @media only screen and (max-width: 300px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .grd-c {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+    font-weight: 200;
+    font-size: x-large;
+    padding-left: 8px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+  .image {
+    width: 100%;
+    margin-right: 80px;
+    height: auto;
+  }
+  .client {
+    text-align: center;
+    margin-right: 50px;
+
+    font-family: Inter;
+
+    font-weight: 200;
+    font-size: 20px;
+
+    line-height: 25px;
+  }
+  .logoz {
+    display: grid;
+    grid-template-columns: auto;
+
+    margin-top: 28.54px;
+    float: left;
+    gap: 20px;
+
+    height: auto;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .community {
+    text-align: center;
+
+    height: auto;
+  }
+  .community2 {
+    margin-top: 11.71px;
+  }
+  .member {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .threeyears {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+  }
+  .threeyears1 {
+    background-color: #4caf4f;
+
+    height: 229px;
+    width: 100%;
+    top: 36.2px;
+  }
+
+  .business {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .business-heading {
+    width: 100%;
+  }
+  .timsmith {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 100.23px;
+    text-align: center;
+    padding-right: 100.23px;
+  }
+  .clients {
+    text-align: center;
+    height: auto;
+  }
+  .clients2 {
+    padding-top: 11.71px;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .blog-body {
+    bottom: 2.5rem;
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .dem0 {
+    font-family: Inter;
+    font-size: 20.55px;
+    font-weight: 200;
+    line-height: 40.9px;
+    text-align: center;
+    padding-bottom: 22.27px;
+
+    height: auto;
+  }
+  .footer {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 30px;
+    column-gap: 35px;
+    width: 100%;
+  }
+  .left {
+    font-family: Inter;
+  }
+  .right {
+    margin-left: 36px;
+  }
+  .btn1 {
+    float: left;
+  }
+  .butn {
+    margin-top: 16.71px;
+  }
+  .right1 {
+    margin-right: 40px;
+  }
+} */
